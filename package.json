@@ -1,0 +1,31 @@
+{
+  "name": "azurelinuxinfoblox",
+  "version": "1.0.0",
+  "description": "NodeJS application that enables the Linux compute in azure to procure a DNS/DHCP record in InfoBlox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "InfoBlox;",
+    "Azure;",
+    "Linux;",
+    "Linux",
+    "Agent",
+    "for",
+    "Azure;"
+  ],
+  "author": "Antonio Luevano for KPMG US",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.0.0",
+    "express": "^4.16.4",
+    "expressjs": "^1.0.1",
+    "winston": "^3.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
